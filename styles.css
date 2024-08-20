@@ -98,21 +98,21 @@ h1 {
     }
 
     .botao {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         padding: 2px;
     }
 
     .botoes {
-        width: 190px;
+        width: 200px;
     }
 
     .maior {
-        width: 60px;
+        width: 70px;
     }
 
     .maiores {
-        height: 60px;
+        height: 68px;
     }
 
     .botao:-ms-touch-action::after{
