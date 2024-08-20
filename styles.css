@@ -52,6 +52,8 @@ h1 {
     background-color: rgb(180, 181, 182);
     margin: 3px;
     border: 1px solid;
+    border-color: black;
+    color: white;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -98,6 +100,7 @@ h1 {
     .botao {
         width: 25px;
         height: 25px;
+        padding: 2px;
     }
 
     .botoes {
@@ -110,5 +113,9 @@ h1 {
 
     .maiores {
         height: 60px;
+    }
+
+    .botao:-ms-touch-action::after{
+        background-color: rgb(110, 103, 103);
     }
 }
