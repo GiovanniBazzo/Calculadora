@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 
-* {
-    background-color: rgb(43, 38, 38);
-}
-
 body {
     display: flex;
     justify-content: center;
+    background-color: rgb(83, 83, 83)
 }
 
 h1 {
@@ -27,6 +24,7 @@ h1 {
     padding-left: 50px;
     gap: 15px;
     border-radius: 8px;
+    background-color: rgb(43, 38, 38)
 }
 
 .tela {
@@ -38,7 +36,8 @@ h1 {
     height: 50px;
     border: 1px solid;
     border-radius: 5px;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
     justify-content: right;
     padding: 0 10px;
 }
@@ -47,6 +46,7 @@ h1 {
     display: flex;
     width: 290px;
     justify-content: center;
+    background-color: rgb(43, 38, 38)
 }
 
 .botao {
@@ -116,5 +116,9 @@ h1 {
 
     .maiores {
         height: 68px;
+    }
+
+    .botao:-ms-touch-action::after{
+        background-color: rgb(110, 103, 103);
     }
 }
