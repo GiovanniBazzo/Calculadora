@@ -61,8 +61,8 @@ h1 {
     cursor: pointer;
 }
 
-.botao:hover{
-    background-color: rgb(110, 103, 103);
+button:active {
+        opacity: 0.9;
 }
 
 .numero {
@@ -116,9 +116,5 @@ h1 {
 
     .maiores {
         height: 68px;
-    }
-
-    button:active {
-        opacity: 0.9;
     }
 }
