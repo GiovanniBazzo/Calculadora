@@ -117,4 +117,8 @@ h1 {
     .maiores {
         height: 68px;
     }
+
+    button:active {
+        opacity: 0.9;
+    }
 }
